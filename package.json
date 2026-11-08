@@ -1,0 +1,23 @@
+{
+  "name": "tapo",
+  "version": "1.0.0",
+  "description": "Control a TP-Link Tapo lamp from the command line, with countdown timers and optional ntfy notifications.",
+  "main": "tapo.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["tapo", "tp-link", "cli", "ntfy", "smart-home"],
+  "author": "Rafaël Jafferali",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafjaf/tapo.git"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "dependencies": {
+    "tp-link-tapo-connect": "2.0.15"
+  }
+}
